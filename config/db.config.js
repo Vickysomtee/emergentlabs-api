@@ -1,4 +1,4 @@
-require('dotenv').config()
+
 
 module.exports = {
   HOST: "us-cdbr-east-05.cleardb.net",
