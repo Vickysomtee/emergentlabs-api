@@ -1,10 +1,10 @@
 require('dotenv').config()
 
 module.exports = {
-  HOST: "localhost",
-  USER: process.env.MYSQL_USER,
-  PASSWORD: process.env.MYSQL_PASSWORD,
-  DB: process.env.DATABASE,
+  HOST: "us-cdbr-east-05.cleardb.net",
+  USER: "b4932e7f587b3f",
+  PASSWORD: "aaf2f51f",
+  DB: "heroku_355e7e4f9852205",
   dialect: "mysql",
   pool: {
     max: 5,

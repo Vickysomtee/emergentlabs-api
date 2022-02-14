@@ -1,6 +1,9 @@
 {
   "name": "emergentlabs",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.4.0"
+    },
   "description": "Tiny Labs UI",
   "main": "app.js",
   "scripts": {
