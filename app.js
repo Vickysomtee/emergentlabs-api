@@ -19,6 +19,10 @@ db.sequelize.sync();
 // Register Routes
 app.use("/api/v1/employees", require("./routes/employee.route"))
 
+app.use("/", (req, res) => {
+  res.send("Hello there")
+})
+
 
 //Connect Server
 app.listen(process.env.PORT, () => {
